@@ -11,7 +11,7 @@
 // import './source/lesson4'
 
 import 'babel-polyfill'
-import './source/lesson6'
+import './source/lesson8'
 
 // let log=(item)=>{console.log(item)};
 // log('我要学习ES6')
