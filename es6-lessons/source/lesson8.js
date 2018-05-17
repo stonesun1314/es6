@@ -47,4 +47,5 @@
 
 {
   // 扩展运算符
+  let {a, b, ...c} = {a: 'test', b: 'kill', c: 'ddd', d: 'ccc'}
 }
