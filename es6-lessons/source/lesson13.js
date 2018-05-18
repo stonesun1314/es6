@@ -136,11 +136,3 @@
 
   ]).then(showImgs)
 }
-
-// race谁先下载完显示谁，其它的不管
-Promise.race([
-  loadImg('url'),
-  loadImg('url'),
-  loadImg('url')
-
-]).then(showImgs)
