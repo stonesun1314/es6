@@ -10,8 +10,15 @@
 // import 'babel-polyfill'
 // import './source/lesson4'
 
-import 'babel-polyfill'
-import './source/lesson16'
+// import 'babel-polyfill'
+// import './source/lesson17'
 
-// let log=(item)=>{console.log(item)};
-// log('我要学习ES6')
+// // import {A, test, Hello} from './source/lesson17'
+// import * as lesson from './source/lesson17' //* 代表导入所有的东西 as 别名
+import Lesson17 from './source/lesson17'
+
+// // console.log(A, test, Hello)
+// // console.log(A)
+// console.log(lesson.A, lesson.test)
+
+console.log(Lesson17.A)
