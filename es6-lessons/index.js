@@ -15,10 +15,13 @@
 
 // // import {A, test, Hello} from './source/lesson17'
 // import * as lesson from './source/lesson17' //* 代表导入所有的东西 as 别名
-import Lesson17 from './source/lesson17'
+// import Lesson17 from './source/lesson17'
 
-// // console.log(A, test, Hello)
-// // console.log(A)
-// console.log(lesson.A, lesson.test)
+// // // console.log(A, test, Hello)
+// // // console.log(A)
+// // console.log(lesson.A, lesson.test)
 
-console.log(Lesson17.A)
+// console.log(Lesson17.A)
+
+import 'babel-polyfill'
+import Lottery from './lottery'
