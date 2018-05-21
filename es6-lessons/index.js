@@ -23,5 +23,8 @@
 
 // console.log(Lesson17.A)
 
-import 'babel-polyfill'
-import Lottery from './lottery'
+// import 'babel-polyfill'
+// import Lottery from './lottery'
+
+var express = require('express')
+var mockjs = require('mockjs')

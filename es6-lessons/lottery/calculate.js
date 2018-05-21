@@ -27,7 +27,7 @@ class Calculate {
    * @memberof Calculate
    * @returns {array}   [奖金范围]
    */
-  computeBouns (active, play_name) {
+  computeBonus (active, play_name) {
     const play = play_name.split('')    //当前玩法的基数
     const self = this                   //保存当前对象的指向
     let arr = new Array(play[1] * 1).fill(0) // 获取当前玩法，玩法匹配数组，并填充默认值
